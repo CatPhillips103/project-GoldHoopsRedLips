@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Bootstrap CORE CSS-->
+
+    <!--Bootstrap CORE-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!--Custom CSS to override Bootstrap CSS-->
     <link rel="stylesheet" type="text/css" href="css/GHRLstyles.css">
+
     <!--Custom Font from Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -14,17 +17,37 @@
   </head>
 
   <body>
-    <!--Container added to create a responsive website for all screen devices-->
+
+    <!--Fullscreen Overlay Navigation outside Bootstrap CSS-->
+    <nav>
+      <div id="GHRLnav" class="overlay">
+        <a href="javascript: void(0)" class="closemenu" onclick="closeNav()"><i class="far fa-window-close"></i></a>
+      <div class="overlay-content">
+        <a href="#">Prose+Poem</a>
+        <a href="#">Inspiration</a>
+        <a href="#">Bio</a>
+      </div>
+      </div>
+
+       <!--Button to open navigation menu-->
+      <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+    </nav>
+
+      <!--Container added to create a responsive website for all screen devices-->
       <div class="container-fluid">
       <div class="jumbotron jumbotron-fluid">
-      <img src="images/Pantone485C.jpg" alt="PantoneCirlce" id="pcircle">
-         <h1><b>Gold Hoops & Red Lips<b></h1>
-         <p class="lead">we ase & pour out libations</p>
-         <i class="fab fa-instagram"></i>
-         <i class="fab fa-twitter-square"></i>
-         <i class="fab fa-facebook"></i>
-         <i class="fab fa-snapchat-square"></i>
-       </div>
-     </div>
-  </body>
-</html>
+        <img src="images/Pantone485C.jpg" alt="PantoneCirlce" id="pcircle">
+        <h1><b>Gold Hoops & Red Lips<b></h1>
+        <p class="lead">we ase & pour out libations</p>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-snapchat-square"></i>
+      </div>
+      </div>
+
+      <!--Link to navigation script page-->
+    <script src="js/navigation.js"></script>
+
+    </body>
+  </html>
