@@ -1,6 +1,5 @@
 body {
   font-family: 'Major Mono Display';
-
 }
 
 .jumbotron {
@@ -33,6 +32,7 @@ body {
 
 h1{
   padding: 20px;
+  text-align: center;
 }
 
 i {
@@ -102,4 +102,23 @@ i {
 .overlay i {
   padding: 10px;
   font-size: 40px;
+}
+
+
+.card-deck {
+  margin-bottom: 40px;
+}
+
+.card-title h5{
+  font-size: 60px;
+}
+
+#card-img {
+  width: auto;
+  height: auto;
+}
+
+iframe {
+  width: auto;
+  height: 380px;
 }
