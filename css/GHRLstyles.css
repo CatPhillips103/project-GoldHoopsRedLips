@@ -124,7 +124,7 @@ iframe {
 
 
 .GHRLfooter {
-  position: fixed;
+  position: static;
   width: 100%;
   left: 0;
   bottom: 0;
