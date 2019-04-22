@@ -104,7 +104,6 @@ i {
   font-size: 40px;
 }
 
-
 .card-deck {
   margin-bottom: 40px;
 }
@@ -122,3 +121,14 @@ iframe {
   width: auto;
   height: 380px;
 }
+
+
+.GHRLfooter {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(255,255,255);
+  text-align: center;
+  color: rgb(0,0,0);
+  border-color: rgb(0,0,0);
