@@ -7,6 +7,7 @@ function openNav() {
    document.getElementById("GHRLnav") .style.width="0%";
  }
 
+//script for scroll button to top of window//
  $(window).scroll(scrollFunction);
 
 
@@ -18,7 +19,6 @@ function openNav() {
    }
  };
 
- 
  function topFunction() {
    $(window).scrollTop(0);
  }
