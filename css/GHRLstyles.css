@@ -203,3 +203,7 @@ iframe {
     max-width: 100%;
   }
 }
+
+.biodescript {
+  text-align: center;
+}
