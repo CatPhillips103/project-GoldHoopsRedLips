@@ -8,7 +8,7 @@ function openNav() {
  }
 
 //script for scroll button to top of window//
- $(window).scroll(scrollFunction);
+  $(window).scroll(scrollFunction);
 
 
  function scrollFunction() {
